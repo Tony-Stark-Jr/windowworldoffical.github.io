@@ -1,0 +1,259 @@
+/* Link of Google fonts (Opens Sans) */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #710f6f;
+  --secondary: #f3f363;
+  --light-background: #ffffff;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Resualbe code Start */
+
+.container {
+  max-width: 90%;
+  margin: 2rem auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 48px;
+  color: var(--primary);
+  text-align: center;
+}
+
+h4 {
+  size: 24px;
+  color: var(--primary);
+}
+
+p {
+  font-size: 20px;
+}
+
+.btn {
+  background-color: var(--primary);
+  font-size: 14px;
+  color: var(--light-background);
+  border: 1px solid var(--primary);
+  border-radius: 6px;
+  padding: 10px 8px;
+  margin-top: 1.2rem;
+  transition: all 0.3s linear;
+}
+
+.btn:hover {
+  color: var(--primary);
+  background-color: var(--light-background);
+  border: 1px solid var(--primary);
+}
+
+/* Resualbe code End */
+
+/* Header Section Start */
+.logo-img {
+  width: 180;
+}
+
+.logo-name {
+  color: var(--primary);
+  /* margin-left: 30%; */
+}
+
+.logo-name h1 {
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 6%;
+}
+
+.logo-name p {
+  font-size: 1.5rem;
+  letter-spacing: 10%;
+}
+/* Header Section End */
+/* Nav Start */
+.nav {
+  margin-top: 2rem;
+  width: 100%;
+  height: 68px;
+  background-color: var(--primary);
+}
+
+.nav ul {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  color: var(--light-background);
+  font-weight: 500;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  color: var(--secondary);
+}
+/* Nav End */
+
+/* Main Start */
+.main {
+  margin-top: 5rem;
+  display: flex;
+  gap: 18rem;
+}
+/* Main End */
+
+/* About Section Start */
+.about {
+  margin-top: 5rem;
+  /* align-items: center; */
+}
+
+.about-more {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 10rem;
+}
+/* About Section End */
+
+/* Notice and Event Section Start */
+.eventnotice {
+  margin-left: 10rem;
+}
+
+.shadow {
+  margin-top: 5rem;
+  width: 568px;
+  height: 280px;
+  box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+  background: #ffffff;
+  opacity: 0.6;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.shadow h4 {
+  margin-bottom: 1rem;
+  /* position: absolute; */
+}
+
+.events p,
+.notice p {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+/* Notice and Event Section End */
+
+/* Our Program Section Start */
+.programs {
+  margin-left: 10rem;
+}
+
+.container h2 {
+  margin-bottom: 1.5rem;
+}
+.aboard,
+.coaching-class {
+  width: 568px;
+  margin-top: 1rem;
+}
+
+.coaching-class p,
+.aboard p {
+  text-align: center;
+}
+
+/* Our Program Section End */
+
+/* Footer Start */
+.footer{
+    height: 200px;
+    padding: 10px 2rem;
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-around;
+    color: var(--light-background);
+}
+
+footer p{
+    margin: 0.4rem;
+}
+
+footer p:hover{
+    color: var(--secondary);
+}
+
+footer .upper{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.connect-with-us i{
+    font-size: 2rem;
+}
+
+.connect-with-us i:hover{
+    color: rgb(0, 0, 255);
+}
+
+.copyright{
+   padding-top: 1.5rem;
+   padding-bottom: 1rem;
+    background-color: var(--primary);
+    color: var(--light-background);
+    text-align: center;
+}
+
+/* Footer End */
+
+
+
